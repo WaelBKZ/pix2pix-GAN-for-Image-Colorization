@@ -3,10 +3,9 @@
 <p align="center"> <i>Authors:</i> Waël Boukhobza, Antonin Vidon and Hugo Artigas</p>
 
 <p align="center">
-  <img src="./figures/preamble.png">  
-  
-  <i>From left to right respectively: the greyscale image, the groundtruth image, and our pix2pix recoloring.</i>
-</p>
+  <img src="./figures/preamble.png"></p>  
+  <p align="center"><i>From left to right respectively: the greyscale image, the groundtruth image, and our pix2pix recoloring.</i></p>  
+
 
 This repo contains our attempt to replicate the results of pix2pix on the 'Facades' dataset. We conduct ablation experiments on data augmentation, choice of loss, batch size, ... We then constitute our own training dataset from [Country211](https://openaipublic.azureedge.net/clip/data/country211.tgz), and perform our colorization task on it. pix2pix by itself actually gives unsatisfactory results for this task; we thus decided to enhance the model by pre-trained the Generator (without the discriminator) on the ImageNet dataset. This results in better results, sometimes indiscernible from a real image with a naked eye.
 
