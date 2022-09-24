@@ -3,7 +3,8 @@
 <p align="center"> <i>Authors:</i> Waël Boukhobza, Antonin Vidon and Hugo Artigas</p>
 
 <p align="center">
-  <img src="./figures/preamble.png">
+  <img src="./figures/preamble.png">  
+  
   <i>From left to right respectively: the greyscale image, the groundtruth image, and our pix2pix recoloring.</i>
 </p>
 
